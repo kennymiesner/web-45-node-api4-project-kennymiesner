@@ -10,7 +10,7 @@ server.use(express.json())
 server.use(cors())
 
 server.get('/', (req, res) => {
-  res.send(`<h1>Basic API Scaffolding</h1>`)
+  res.send(`<h1>Basic API Scaffolding Project</h1>`)
 })
 
 server.get('/api', (req, res) => {
